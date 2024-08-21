@@ -38,8 +38,8 @@ st.title('🎥 Movie Recommender System')
 st.sidebar.header('Select a Movie')
 # movies = pickle.load(open('recommendation_system-movies/movie_list.pkl', 'rb'))
 # similarity = pickle.load(open('recommendation_system-movies/similarity.pkl', 'rb'))
-movies = pickle.load(open('movie_list.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+movies = pickle.load(open('movie_list1.pkl', 'rb'))
+similarity = pickle.load(open('similarity1.pkl', 'rb'))
 
 movie_list = movies['title'].values
 selected_movie = st.sidebar.selectbox(
